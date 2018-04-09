@@ -1,0 +1,211 @@
+﻿/*Forum 4 SQL with SQL Server*/
+/*IT 509-02 Data Management*/
+/*Dr. Virginia ILIE*/
+/*Yang, Guan*/
+/*California Lutheran University*/
+
+ProductID   SupplierID  UnitsInStock Discontinued
+----------- ----------- ------------ ------------
+4           2           53           0
+66          2           4            0
+77          12          32           0
+64          12          22           0
+
+(4 row(s) affected)
+
+CompanyName                              Region          Country
+---------------------------------------- --------------- ---------------
+Alfreds Futterkiste                      NULL            Germany
+Ana Trujillo Emparedados y helados       NULL            Mexico
+Antonio Moreno Taquería                  NULL            Mexico
+Around the Horn                          NULL            UK
+Berglunds snabbköp                       NULL            Sweden
+Blauer See Delikatessen                  NULL            Germany
+Blondesddsl père et fils                 NULL            France
+Bólido Comidas preparadas                NULL            Spain
+Bon app'                                 NULL            France
+B's Beverages                            NULL            UK
+Cactus Comidas para llevar               NULL            Argentina
+Centro comercial Moctezuma               NULL            Mexico
+Chop-suey Chinese                        NULL            Switzerland
+Consolidated Holdings                    NULL            UK
+Die Wandernde Kuh                        NULL            Germany
+Drachenblut Delikatessen                 NULL            Germany
+Du monde entier                          NULL            France
+Eastern Connection                       NULL            UK
+Ernst Handel                             NULL            Austria
+FISSA Fabrica Inter. Salchichas S.A.     NULL            Spain
+Folies gourmandes                        NULL            France
+Folk och fä HB                           NULL            Sweden
+France restauration                      NULL            France
+Franchi S.p.A.                           NULL            Italy
+Frankenversand                           NULL            Germany
+Furia Bacalhau e Frutos do Mar           NULL            Portugal
+Galería del gastrónomo                   NULL            Spain
+Godos Cocina Típica                      NULL            Spain
+Königlich Essen                          NULL            Germany
+La corne d'abondance                     NULL            France
+La maison d'Asie                         NULL            France
+Lehmanns Marktstand                      NULL            Germany
+Magazzini Alimentari Riuniti             NULL            Italy
+Maison Dewey                             NULL            Belgium
+Morgenstern Gesundkost                   NULL            Germany
+North/South                              NULL            UK
+Océano Atlántico Ltda.                   NULL            Argentina
+Ottilies Käseladen                       NULL            Germany
+Paris spécialités                        NULL            France
+Pericles Comidas clásicas                NULL            Mexico
+Piccolo und mehr                         NULL            Austria
+Princesa Isabel Vinhos                   NULL            Portugal
+QUICK-Stop                               NULL            Germany
+Rancho grande                            NULL            Argentina
+Reggiani Caseifici                       NULL            Italy
+Richter Supermarkt                       NULL            Switzerland
+Romero y tomillo                         NULL            Spain
+Santé Gourmet                            NULL            Norway
+Seven Seas Imports                       NULL            UK
+Simons bistro                            NULL            Denmark
+Spécialités du monde                     NULL            France
+Suprêmes délices                         NULL            Belgium
+Toms Spezialitäten                       NULL            Germany
+Tortuga Restaurante                      NULL            Mexico
+Vaffeljernet                             NULL            Denmark
+Victuailles en stock                     NULL            France
+Vins et alcools Chevalier                NULL            France
+Wartian Herkku                           NULL            Finland
+Wilman Kala                              NULL            Finland
+Wolski  Zajazd                           NULL            Poland
+Bottom-Dollar Markets                    BC              Canada
+Laughing Bacchus Wine Cellars            BC              Canada
+Hungry Owl All-Night Grocers             Co. Cork        Ireland
+GROSELLA-Restaurante                     DF              Venezuela
+Island Trading                           Isle of Wight   UK
+LILA-Supermercado                        Lara            Venezuela
+LINO-Delicateses                         Nueva Esparta   Venezuela
+Mère Paillarde                           Québec          Canada
+Hanari Carnes                            RJ              Brazil
+Que Delícia                              RJ              Brazil
+Ricardo Adocicados                       RJ              Brazil
+Comércio Mineiro                         SP              Brazil
+Familia Arquibaldo                       SP              Brazil
+Gourmet Lanchonetes                      SP              Brazil
+Queen Cozinha                            SP              Brazil
+Tradição Hipermercados                   SP              Brazil
+Wellington Importadora                   SP              Brazil
+HILARION-Abastos                         Táchira         Venezuela
+
+(78 row(s) affected)
+
+ProductID   ProductName
+----------- ----------------------------------------
+7           Uncle Bob's Organic Dried Pears
+14          Tofu
+35          Steeleye Stout
+34          Sasquatch Ale
+28          Rössle Sauerkraut
+75          Rhönbräu Klosterbier
+70          Outback Lager
+51          Manjimup Dried Apples
+74          Longlife Tofu
+67          Laughing Lumberjack Lager
+76          Lakkalikööri
+43          Ipoh Coffee
+24          Guaraná Fantástica
+38          Côte de Blaye
+39          Chartreuse verte
+2           Chang
+1           Chai
+
+(17 row(s) affected)
+
+CategoryID  Average Unit Price
+----------- ---------------------
+5           20.25
+8           20.6825
+2           23.0625
+3           25.16
+4           28.73
+7           32.37
+1           37.9791
+6           54.0066
+
+(8 row(s) affected)
+
+OrderID     Total Quantity
+----------- --------------
+10248       27
+10250       60
+10252       105
+
+(3 row(s) affected)
+
+CompanyName                              Country         ProductID   ProductName
+---------------------------------------- --------------- ----------- ----------------------------------------
+G'day, Mate                              Australia       52          Filo Mix
+G'day, Mate                              Australia       51          Manjimup Dried Apples
+G'day, Mate                              Australia       53          Perth Pasties
+Pavlova, Ltd.                            Australia       17          Alice Mutton
+Pavlova, Ltd.                            Australia       18          Carnarvon Tigers
+Pavlova, Ltd.                            Australia       70          Outback Lager
+Pavlova, Ltd.                            Australia       16          Pavlova
+Pavlova, Ltd.                            Australia       63          Vegie-spread
+Refrescos Americanas LTDA                Brazil          24          Guaraná Fantástica
+Forêts d'érables                         Canada          61          Sirop d'érable
+Forêts d'érables                         Canada          62          Tarte au sucre
+Ma Maison                                Canada          55          Pâté chinois
+Ma Maison                                Canada          54          Tourtière
+Lyngbysild                               Denmark         45          Rogede sild
+Lyngbysild                               Denmark         46          Spegesild
+Karkki Oy                                Finland         76          Lakkalikööri
+Karkki Oy                                Finland         49          Maxilaku
+Karkki Oy                                Finland         50          Valkoinen suklaa
+Aux joyeux ecclésiastiques               France          39          Chartreuse verte
+Aux joyeux ecclésiastiques               France          38          Côte de Blaye
+Escargots Nouveaux                       France          58          Escargots de Bourgogne
+Gai pâturage                             France          60          Camembert Pierrot
+Gai pâturage                             France          59          Raclette Courdavault
+Heli Süßwaren GmbH & Co. KG              Germany         26          Gumbär Gummibärchen
+Heli Süßwaren GmbH & Co. KG              Germany         25          NuNuCa Nuß-Nougat-Creme
+Heli Süßwaren GmbH & Co. KG              Germany         27          Schoggi Schokolade
+Nord-Ost-Fisch Handelsgesellschaft mbH   Germany         30          Nord-Ost Matjeshering
+Plutzer Lebensmittelgroßmärkte AG        Germany         77          Original Frankfurter grüne Soße
+Plutzer Lebensmittelgroßmärkte AG        Germany         75          Rhönbräu Klosterbier
+Plutzer Lebensmittelgroßmärkte AG        Germany         28          Rössle Sauerkraut
+Plutzer Lebensmittelgroßmärkte AG        Germany         29          Thüringer Rostbratwurst
+Plutzer Lebensmittelgroßmärkte AG        Germany         64          Wimmers gute Semmelknödel
+Formaggi Fortini s.r.l.                  Italy           31          Gorgonzola Telino
+Formaggi Fortini s.r.l.                  Italy           32          Mascarpone Fabioli
+Formaggi Fortini s.r.l.                  Italy           72          Mozzarella di Giovanni
+Pasta Buttini s.r.l.                     Italy           56          Gnocchi di nonna Alice
+Pasta Buttini s.r.l.                     Italy           57          Ravioli Angelo
+Mayumi's                                 Japan           15          Genen Shouyu
+Mayumi's                                 Japan           13          Konbu
+Mayumi's                                 Japan           14          Tofu
+Tokyo Traders                            Japan           10          Ikura
+Tokyo Traders                            Japan           74          Longlife Tofu
+Tokyo Traders                            Japan           9           Mishi Kobe Niku
+Zaanse Snoepfabriek                      Netherlands     48          Chocolade
+Zaanse Snoepfabriek                      Netherlands     47          Zaanse koeken
+Norske Meierier                          Norway          71          Flotemysost
+Norske Meierier                          Norway          33          Geitost
+Norske Meierier                          Norway          69          Gudbrandsdalsost
+Leka Trading                             Singapore       44          Gula Malacca
+Leka Trading                             Singapore       43          Ipoh Coffee
+Leka Trading                             Singapore       42          Singaporean Hokkien Fried Mee
+Cooperativa de Quesos 'Las Cabras'       Spain           11          Queso Cabrales
+Cooperativa de Quesos 'Las Cabras'       Spain           12          Queso Manchego La Pastora
+PB Knäckebröd AB                         Sweden          22          Gustaf's Knäckebröd
+PB Knäckebröd AB                         Sweden          23          Tunnbröd
+Svensk Sjöföda AB                        Sweden          37          Gravad lax
+Svensk Sjöföda AB                        Sweden          36          Inlagd Sill
+Svensk Sjöföda AB                        Sweden          73          Röd Kaviar
+Exotic Liquids                           UK              3           Aniseed Syrup
+Exotic Liquids                           UK              1           Chai
+Exotic Liquids                           UK              2           Chang
+Specialty Biscuits, Ltd.                 UK              68          Scottish Longbreads
+Specialty Biscuits, Ltd.                 UK              20          Sir Rodney's Marmalade
+Specialty Biscuits, Ltd.                 UK              21          Sir Rodney's Scones
+Specialty Biscuits, Ltd.                 UK              19          Teatime Chocolate Biscuits
+
+(65 row(s) affected)
+
