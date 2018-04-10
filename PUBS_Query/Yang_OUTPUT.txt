@@ -1,0 +1,150 @@
+﻿/*Final Exam SQL practial assignment OUTPUT*/
+/*IT 509-02 Data Management*/
+/*Dr. Virginia ILIE*/
+/*Yang, Guan*/
+
+/*Q1*/
+city                 state au_lname                                 au_fname
+-------------------- ----- ---------------------------------------- --------------------
+Berkeley             CA    Bennet                                   Abraham
+Berkeley             CA    Carson                                   Cheryl
+Palo Alto            CA    Dull                                     Ann
+Oakland              CA    Green                                    Marjorie
+Covelo               CA    Gringlesby                               Burt
+Palo Alto            CA    Hunter                                   Sheryl
+Oakland              CA    Karsen                                   Livia
+San Francisco        CA    Locksley                                 Charlene
+Oakland              CA    MacFeather                               Stearns
+Vacaville            CA    McBadden                                 Heather
+San Jose             CA    O'Leary                                  Michael
+Oakland              CA    Straight                                 Dean
+Oakland              CA    Stringer                                 Dirk
+Menlo Park           CA    White                                    Johnson
+Walnut Creek         CA    Yokomoto                                 Akiko
+Lawrence             KS    Smith                                    Meander
+Salt Lake City       UT    Ringer                                   Anne
+Salt Lake City       UT    Ringer                                   Albert
+
+(18 row(s) affected)
+
+/*Q2*/
+authornumber
+------------
+15
+
+(1 row(s) affected)
+
+/*Q3*/
+title_id average ytd_sales
+-------- -----------------
+BU1111   3876
+BU1032   4095
+BU7832   4095
+BU2075   18722
+
+(4 row(s) affected)
+
+/*Q4*/
+ord_num              payterms     stor_name                                city                 state
+-------------------- ------------ ---------------------------------------- -------------------- -----
+QQ2299               Net 60       Fricative Bookshop                       Fremont              CA
+TQ456                Net 60       Fricative Bookshop                       Fremont              CA
+D4482                Net 60       News & Brews                             Los Gatos            CA
+P3087a               Net 60       Doc-U-Mat: Quality Laundry and Books     Remulade             WA
+P3087a               Net 60       Doc-U-Mat: Quality Laundry and Books     Remulade             WA
+P3087a               Net 60       Doc-U-Mat: Quality Laundry and Books     Remulade             WA
+P3087a               Net 60       Doc-U-Mat: Quality Laundry and Books     Remulade             WA
+6871                 Net 60       Eric the Read Books                      Seattle              WA
+722a                 Net 60       Eric the Read Books                      Seattle              WA
+
+(9 row(s) affected)
+
+/*Q5*/
+au_fname             au_lname                                 state title
+-------------------- ---------------------------------------- ----- --------------------------------------------------------------------------------
+Abraham              Bennet                                   CA    The Busy Executive's Database Guide
+Cheryl               Carson                                   CA    But Is It User Friendly?
+Ann                  Dull                                     CA    Secrets of Silicon Valley
+Marjorie             Green                                    CA    The Busy Executive's Database Guide
+Marjorie             Green                                    CA    You Can Combat Computer Stress!
+Burt                 Gringlesby                               CA    Sushi, Anyone?
+Sheryl               Hunter                                   CA    Secrets of Silicon Valley
+Livia                Karsen                                   CA    Computer Phobic AND Non-Phobic Individuals: Behavior Variations
+Charlene             Locksley                                 CA    Net Etiquette
+Charlene             Locksley                                 CA    Emotional Security: A New Algorithm
+Stearns              MacFeather                               CA    Cooking with Computers: Surreptitious Balance Sheets
+Stearns              MacFeather                               CA    Computer Phobic AND Non-Phobic Individuals: Behavior Variations
+Michael              O'Leary                                  CA    Cooking with Computers: Surreptitious Balance Sheets
+Michael              O'Leary                                  CA    Sushi, Anyone?
+Dean                 Straight                                 CA    Straight Talk About Computers
+Johnson              White                                    CA    Prolonged Data Deprivation: Four Case Studies
+Akiko                Yokomoto                                 CA    Sushi, Anyone?
+
+(17 row(s) affected)
+
+/*Q6*/
+stor_name                                city                 state qty    price                 title                                                                            type         pub_name
+---------------------------------------- -------------------- ----- ------ --------------------- -------------------------------------------------------------------------------- ------------ ----------------------------------------
+Barnum's                                 Tustin               CA    50     20.00                 Secrets of Silicon Valley                                                        popular_comp Algodata Infosystems
+Barnum's                                 Tustin               CA    75     10.95                 Is Anger the Enemy?                                                              psychology   New Moon Books
+Bookbeat                                 Portland             OR    10     19.99                 The Busy Executive's Database Guide                                              business     Algodata Infosystems
+Bookbeat                                 Portland             OR    25     11.95                 Cooking with Computers: Surreptitious Balance Sheets                             business     Algodata Infosystems
+Bookbeat                                 Portland             OR    30     22.95                 But Is It User Friendly?                                                         popular_comp Algodata Infosystems
+Bookbeat                                 Portland             OR    15     2.99                  The Gourmet Microwave                                                            mod_cook     Binnet & Hardley
+Doc-U-Mat: Quality Laundry and Books     Remulade             WA    25     2.99                  The Gourmet Microwave                                                            mod_cook     Binnet & Hardley
+Doc-U-Mat: Quality Laundry and Books     Remulade             WA    20     21.59                 Computer Phobic AND Non-Phobic Individuals: Behavior Variations                  psychology   Binnet & Hardley
+Doc-U-Mat: Quality Laundry and Books     Remulade             WA    25     7.00                  Life Without Fear                                                                psychology   New Moon Books
+Doc-U-Mat: Quality Laundry and Books     Remulade             WA    15     19.99                 Prolonged Data Deprivation: Four Case Studies                                    psychology   New Moon Books
+Doc-U-Mat: Quality Laundry and Books     Remulade             WA    25     7.99                  Emotional Security: A New Algorithm                                              psychology   New Moon Books
+Doc-U-Mat: Quality Laundry and Books     Remulade             WA    20     10.95                 Is Anger the Enemy?                                                              psychology   New Moon Books
+Eric the Read Books                      Seattle              WA    5      19.99                 The Busy Executive's Database Guide                                              business     Algodata Infosystems
+Eric the Read Books                      Seattle              WA    3      10.95                 Is Anger the Enemy?                                                              psychology   New Moon Books
+Fricative Bookshop                       Fremont              CA    15     19.99                 Straight Talk About Computers                                                    business     Algodata Infosystems
+Fricative Bookshop                       Fremont              CA    10     19.99                 Silicon Valley Gastronomic Treats                                                mod_cook     Binnet & Hardley
+Fricative Bookshop                       Fremont              CA    35     2.99                  You Can Combat Computer Stress!                                                  business     New Moon Books
+News & Brews                             Los Gatos            CA    40     20.95                 Onions, Leeks, and Garlic: Cooking Secrets of the Mediterranean                  trad_cook    Binnet & Hardley
+News & Brews                             Los Gatos            CA    20     11.95                 Fifty Years in Buckingham Palace Kitchens                                        trad_cook    Binnet & Hardley
+News & Brews                             Los Gatos            CA    20     14.99                 Sushi, Anyone?                                                                   trad_cook    Binnet & Hardley
+News & Brews                             Los Gatos            CA    10     10.95                 Is Anger the Enemy?                                                              psychology   New Moon Books
+
+(21 row(s) affected)
+
+/*Q7*/
+Unique number of titles sold
+----------------------------
+16
+
+(1 row(s) affected)
+
+/*Q8*/
+stor_name                                title                                                                            au_lname                                 au_fname             price                 qty    individual order total
+---------------------------------------- -------------------------------------------------------------------------------- ---------------------------------------- -------------------- --------------------- ------ ----------------------
+Barnum's                                 Is Anger the Enemy?                                                              Ringer                                   Anne                 10.95                 75     821.25
+Barnum's                                 Is Anger the Enemy?                                                              Ringer                                   Albert               10.95                 75     821.25
+Barnum's                                 Secrets of Silicon Valley                                                        Dull                                     Ann                  20.00                 50     1000.00
+Barnum's                                 Secrets of Silicon Valley                                                        Hunter                                   Sheryl               20.00                 50     1000.00
+Bookbeat                                 But Is It User Friendly?                                                         Carson                                   Cheryl               22.95                 30     688.50
+Bookbeat                                 Cooking with Computers: Surreptitious Balance Sheets                             O'Leary                                  Michael              11.95                 25     298.75
+Bookbeat                                 Cooking with Computers: Surreptitious Balance Sheets                             MacFeather                               Stearns              11.95                 25     298.75
+Bookbeat                                 The Busy Executive's Database Guide                                              Green                                    Marjorie             19.99                 10     199.90
+Bookbeat                                 The Busy Executive's Database Guide                                              Bennet                                   Abraham              19.99                 10     199.90
+Doc-U-Mat: Quality Laundry and Books     Computer Phobic AND Non-Phobic Individuals: Behavior Variations                  MacFeather                               Stearns              21.59                 20     431.80
+Doc-U-Mat: Quality Laundry and Books     Computer Phobic AND Non-Phobic Individuals: Behavior Variations                  Karsen                                   Livia                21.59                 20     431.80
+Doc-U-Mat: Quality Laundry and Books     Emotional Security: A New Algorithm                                              Locksley                                 Charlene             7.99                  25     199.75
+Doc-U-Mat: Quality Laundry and Books     Is Anger the Enemy?                                                              Ringer                                   Anne                 10.95                 20     219.00
+Doc-U-Mat: Quality Laundry and Books     Is Anger the Enemy?                                                              Ringer                                   Albert               10.95                 20     219.00
+Doc-U-Mat: Quality Laundry and Books     Life Without Fear                                                                Ringer                                   Albert               7.00                  25     175.00
+Doc-U-Mat: Quality Laundry and Books     Prolonged Data Deprivation: Four Case Studies                                    White                                    Johnson              19.99                 15     299.85
+Fricative Bookshop                       Silicon Valley Gastronomic Treats                                                del Castillo                             Innes                19.99                 10     199.90
+Fricative Bookshop                       Straight Talk About Computers                                                    Straight                                 Dean                 19.99                 15     299.85
+Fricative Bookshop                       You Can Combat Computer Stress!                                                  Green                                    Marjorie             2.99                  35     104.65
+News & Brews                             Fifty Years in Buckingham Palace Kitchens                                        Blotchet-Halls                           Reginald             11.95                 20     239.00
+News & Brews                             Is Anger the Enemy?                                                              Ringer                                   Anne                 10.95                 10     109.50
+News & Brews                             Is Anger the Enemy?                                                              Ringer                                   Albert               10.95                 10     109.50
+News & Brews                             Onions, Leeks, and Garlic: Cooking Secrets of the Mediterranean                  Panteley                                 Sylvia               20.95                 40     838.00
+News & Brews                             Sushi, Anyone?                                                                   O'Leary                                  Michael              14.99                 20     299.80
+News & Brews                             Sushi, Anyone?                                                                   Gringlesby                               Burt                 14.99                 20     299.80
+News & Brews                             Sushi, Anyone?                                                                   Yokomoto                                 Akiko                14.99                 20     299.80
+
+(26 row(s) affected)
+
